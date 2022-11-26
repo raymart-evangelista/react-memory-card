@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <div className='grid grid-cols-3 gap-2'>
-        {images.slice(0,10).map((image) =>
+        {images.slice(0,12).map((image) =>
           <img src={image} key={uniqid()} className="" alt="" />
         )}
       </div>
