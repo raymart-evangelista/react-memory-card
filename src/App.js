@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, {useState} from "react"
+import uniqid from "uniqid"
 
 function App() {
 
@@ -24,14 +25,11 @@ function App() {
 
   return (
     <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-      {/* <img src={images[0]} className="App-logo" alt="logo" /> */}
-      <img src={images[1]} className="App-logo" alt="logo" />
-      <ul>
-        {images.map((image) =>
-          <img src={image} className="App-logo" alt="logo" />
+      <div className='grid grid-cols-3 gap-2'>
+        {images.slice(0,10).map((image) =>
+          <img src={image} key={uniqid()} className="" alt="" />
         )}
-        </ul>
+      </div>
 
       <h1 className='text-3xl font-bold underline'>Hello World!</h1>
     </div>

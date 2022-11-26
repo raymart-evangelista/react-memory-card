@@ -1,3 +1,7 @@
+### Resources
+- [importing multiple images on react](https://stackoverflow.com/questions/64922587/import-multiple-images-on-react)
+  - [another post](https://stackoverflow.com/questions/64478212/any-easy-way-to-import-multiple-image-files-at-once-in-react)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
