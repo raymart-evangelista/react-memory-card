@@ -24,14 +24,16 @@ function App() {
   // const images = importAll(require.context('./images', false, '/\.jpeg/'))
 
   return (
-    <div className="App">
-      <div className='grid grid-cols-3 gap-2'>
-        {images.slice(0,12).map((image) =>
+    <div className="App border-4 border-blue-500 h-screen">
+      <h1 className='text-3xl font-bold underline'>Score: 0</h1>
+      <h1 className='text-3xl font-bold underline'>Best: 0</h1>
+      <div className='border-4 border-red-500 grid grid-cols-3 sm:grid-cols-4 2xl:grid-cols-6 gap-2 p-2'>
+        {images.sort(() => 0.5 - Math.random()).slice(0,12).map((image) =>
           <img src={image} key={uniqid()} className="" alt="" />
         )}
       </div>
 
-      <h1 className='text-3xl font-bold underline'>Hello World!</h1>
+      <h1 className='text-3xl font-bold underline'>Refresh</h1>
     </div>
   );
 }
