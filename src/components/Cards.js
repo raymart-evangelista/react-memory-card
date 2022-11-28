@@ -27,9 +27,14 @@ function Cards() {
 }
 
 function ListItem(props) {
+  const handleClick = () => {
+    console.log(props.value)
+  }
+
   return (
-      <img src={props.value} alt="" />
+      <img onClick={handleClick} src={props.value} alt="" />
   )
+
 }
 
 export default Cards
