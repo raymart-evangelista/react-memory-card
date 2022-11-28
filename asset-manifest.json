@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-memory-card/static/css/main.b281bd39.css",
+    "main.js": "/react-memory-card/static/js/main.69de3dcf.js",
+    "static/media/vettel.jpeg": "/react-memory-card/static/media/vettel.129213fb0257d54165e6.jpeg",
+    "static/media/ricciardo.jpeg": "/react-memory-card/static/media/ricciardo.39d255df8650ade00617.jpeg",
+    "static/media/alonso.jpeg": "/react-memory-card/static/media/alonso.630b1957f7944a8d9811.jpeg",
+    "static/media/ocon.jpeg": "/react-memory-card/static/media/ocon.ced593c2233f7ee9a7cd.jpeg",
+    "static/media/norris.jpeg": "/react-memory-card/static/media/norris.bfaf629d56ca8e11113d.jpeg",
+    "static/media/stroll.jpeg": "/react-memory-card/static/media/stroll.9279313860668c940b77.jpeg",
+    "static/media/verstappen.jpeg": "/react-memory-card/static/media/verstappen.c64c4bc9d642abc97152.jpeg",
+    "static/media/sainz.jpeg": "/react-memory-card/static/media/sainz.d5d238323a0087f94b56.jpeg",
+    "static/media/perez.jpeg": "/react-memory-card/static/media/perez.15410be01ae87a53adbe.jpeg",
+    "static/media/bottas.jpeg": "/react-memory-card/static/media/bottas.41d531292161bb09617d.jpeg",
+    "static/media/magnussen.jpeg": "/react-memory-card/static/media/magnussen.9f75894bc27a0e0a77f6.jpeg",
+    "static/media/russell.jpeg": "/react-memory-card/static/media/russell.0991308f0690ccf55f55.jpeg",
+    "static/media/gasly.jpeg": "/react-memory-card/static/media/gasly.3af80be0b6f44f3fa111.jpeg",
+    "static/media/tsunoda.jpeg": "/react-memory-card/static/media/tsunoda.105d654278592723d7ad.jpeg",
+    "static/media/leclerc.jpeg": "/react-memory-card/static/media/leclerc.4d98c6ebffd33c39343c.jpeg",
+    "static/media/albon.jpeg": "/react-memory-card/static/media/albon.0275b040f5e828487516.jpeg",
+    "static/media/guanyu.jpeg": "/react-memory-card/static/media/guanyu.49c67601ccd5374af5bc.jpeg",
+    "static/media/schumacher.jpeg": "/react-memory-card/static/media/schumacher.fcb3a340930311366466.jpeg",
+    "static/media/hamilton.jpeg": "/react-memory-card/static/media/hamilton.f6ae0bc53872d640d041.jpeg",
+    "static/media/goatifi.jpeg": "/react-memory-card/static/media/goatifi.206aae58dd50361f0889.jpeg",
+    "index.html": "/react-memory-card/index.html",
+    "main.b281bd39.css.map": "/react-memory-card/static/css/main.b281bd39.css.map",
+    "main.69de3dcf.js.map": "/react-memory-card/static/js/main.69de3dcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b281bd39.css",
+    "static/js/main.69de3dcf.js"
+  ]
+}
