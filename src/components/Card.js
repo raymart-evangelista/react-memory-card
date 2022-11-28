@@ -1,7 +1,8 @@
-function Card({value, handleClick}) {
+function Card(props) {
   return (
-    <div className="border-2 border-green">
-      <img onClick={handleClick} src={value.image} alt="" />
+    <div className="flex flex-col border-2 border-green-500">
+      <img className="object-cover object-top xl:h-64 xl:w-96" onClick={props.handleClick} src={props.driver.img} alt="" />
+      <p className="text-xs">{props.driver.name}</p>
     </div>
   )
 }
